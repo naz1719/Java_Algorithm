@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * Created by khimin on 05.05.17.
  */
-public class ArrayE {
+public class ArrayOperations {
     public static void main(String[] args) {
         int array[] = new int[]{6, 5, 8, 7, 1, 1, 7};
         max(array);

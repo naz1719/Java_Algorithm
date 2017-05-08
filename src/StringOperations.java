@@ -1,7 +1,7 @@
 /**
  * Created by khimin on 05.05.17.
  */
-public class Str {
+public class StringOperations {
     public static void main(String[] args) {
        String name = "Hello";
         rever(name);
