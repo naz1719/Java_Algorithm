@@ -7,6 +7,11 @@ public class StringOperations {
         rever(name);
         rever1(name);
         builder(name);
+        String string = "Я вступлю в eleks software engineering camp склавши на успішно тести та спібесіду";
+        String[] parts = string.split("\\s+");
+       for(int i=0;i<parts.length; i++){
+           System.out.println(parts[i]);
+       }
 
     }
     static void rever1(String str) {

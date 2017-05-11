@@ -11,7 +11,6 @@ public class ArrayOperations {
         reverse(array);
         int number =12345;
         intreverse(number);
-
     }
     static void intreverse(int number){
         int reversedNumber =0;

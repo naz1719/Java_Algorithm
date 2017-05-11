@@ -13,6 +13,7 @@ public class TowersOfHanoi {
         moves(n-1, !left);
     }
 
+
     public static void main(String[] args) {
         int n = 3;
         moves(n, true);
