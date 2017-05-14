@@ -13,7 +13,20 @@ public class StringOperations {
            System.out.println(parts[i]);
        }
 
+       String a = "Nazar", b="zar";
+        stringContains(a,b);
+
     }
+
+
+    static boolean stringContains(String a, String b){
+        if(a.contains(b)){
+            System.out.println("True");
+            return true;
+        }
+        return false;
+    }
+
     static void rever1(String str) {
         for (int i = str.length() - 1; i >= 0; i--) {
             System.out.print(str.charAt(i));
