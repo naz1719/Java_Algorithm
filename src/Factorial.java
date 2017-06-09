@@ -5,6 +5,13 @@
  */
 public class Factorial {
 
+    // loop factorial
+    public static long factori(long n) {
+        int ret = 1;
+        for (int i = 1; i <= n; ++i) ret *= i;
+        return ret;
+    }
+
     // return n!
     // precondition: n >= 0
     public static long factorial(long n) {
