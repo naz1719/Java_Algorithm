@@ -12,6 +12,20 @@ public class ArrayOperations {
         int number =12345;
         intreverse(number);
     }
+    static void twomax(int array[]) {
+        int maxOne = array[0];
+        int maxTwo = array[0];
+        for (int i = 0; i <= array.length - 1; i++) {
+            if (maxOne < array[i]) {
+                maxTwo = maxOne;
+                maxOne = array[i];
+            } else if (maxTwo < array[i]) {
+                maxTwo = array[i];
+            }
+        }
+        System.out.println("First Maximum Number: " + maxOne);
+        System.out.println("Second Maximum Number: " + maxTwo);
+    }
     static void intreverse(int number){
         int reversedNumber =0;
 
